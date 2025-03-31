@@ -28,7 +28,17 @@ int main()
 	float Number3 = (float)Number / (float)Number2;
 	cout << Number3 << endl;
 
-	cout << C << endl; // 1이다 
+
+
+	for (int i = 0; i < 10; i++) {
+		if (i == 5) break;
+		cout << i << endl;
+	}
+	cout << C << endl; // 1이다
+
+	
+
+
 	return 0;
 
 
