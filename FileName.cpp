@@ -36,8 +36,10 @@ int main()
 	}
 	cout << C << endl; // 1ÀÌ´Ù
 
-	
-
+	int i = 42;
+	int* pl = &i;
+	*pl = *pl * *pl;
+	cout << *pl << endl;
 
 	return 0;
 
